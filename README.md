@@ -90,13 +90,29 @@ enterprise-policy-assistant-system/
 - A free [Groq API Key](https://console.groq.com/)
 
 ### 2. Installation
-Clone the repository and install the dependencies:
 
-```bash
-git clone <repository-url>
-cd enterprise-policy-assistant-system
-pip install -r requirements.txt
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/bittush8789/enterprise-policy-assistant.git
+   cd enterprise-policy-assistant
+   ```
+
+2. **Create and activate a virtual environment**:
+   - **On Windows (PowerShell / Command Prompt)**:
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+   - **On macOS / Linux**:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### 3. Configure Environment
 Create a `.env` file from the provided template:
